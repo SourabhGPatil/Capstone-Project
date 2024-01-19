@@ -1,1 +1,1 @@
-# UI-Automation-Testing-Project
+# Capstone Project
