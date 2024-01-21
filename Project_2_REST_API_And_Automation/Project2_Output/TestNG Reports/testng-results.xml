@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-07-21T09:27:59 IST" name="Default suite" finished-at="2022-07-21T09:28:05 IST" duration-ms="5356">
+    <groups>
+    </groups>
+    <test started-at="2022-07-21T09:27:59 IST" name="Default test" finished-at="2022-07-21T09:28:05 IST" duration-ms="5356">
+      <class name="com.restapi.TopJobsRestAssured.GetAllJobs">
+        <test-method signature="getalljobs()[pri:0, instance:com.restapi.TopJobsRestAssured.GetAllJobs@15aab8c6]" started-at="2022-07-21T09:28:00 IST" name="getalljobs" finished-at="2022-07-21T09:28:03 IST" duration-ms="3725" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getalljobs -->
+      </class> <!-- com.restapi.TopJobsRestAssured.GetAllJobs -->
+      <class name="com.restapi.TopJobsRestAssured.PostJob">
+        <test-method signature="addanewJob()[pri:0, instance:com.restapi.TopJobsRestAssured.PostJob@32b260fa]" started-at="2022-07-21T09:28:03 IST" name="addanewJob" finished-at="2022-07-21T09:28:04 IST" duration-ms="1236" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addanewJob -->
+      </class> <!-- com.restapi.TopJobsRestAssured.PostJob -->
+      <class name="com.restapi.TopJobsRestAssured.UpdateJob">
+        <test-method signature="updatebyjobid()[pri:0, instance:com.restapi.TopJobsRestAssured.UpdateJob@581ac8a8]" started-at="2022-07-21T09:28:05 IST" name="updatebyjobid" finished-at="2022-07-21T09:28:05 IST" duration-ms="141" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updatebyjobid -->
+      </class> <!-- com.restapi.TopJobsRestAssured.UpdateJob -->
+      <class name="com.restapi.TopJobsRestAssured.GetJobbyJobId">
+        <test-method signature="getjobbyid()[pri:0, instance:com.restapi.TopJobsRestAssured.GetJobbyJobId@6d4e5011]" started-at="2022-07-21T09:28:05 IST" name="getjobbyid" finished-at="2022-07-21T09:28:05 IST" duration-ms="75" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getjobbyid -->
+      </class> <!-- com.restapi.TopJobsRestAssured.GetJobbyJobId -->
+      <class name="com.restapi.TopJobsRestAssured.DeleteByJobId">
+        <test-method signature="deletebyjobid()[pri:0, instance:com.restapi.TopJobsRestAssured.DeleteByJobId@57d7f8ca]" started-at="2022-07-21T09:28:05 IST" name="deletebyjobid" finished-at="2022-07-21T09:28:05 IST" duration-ms="96" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deletebyjobid -->
+      </class> <!-- com.restapi.TopJobsRestAssured.DeleteByJobId -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
