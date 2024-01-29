@@ -1,4 +1,3 @@
 # Capstone Project 
-The Capstone Project consisting of Automating the UI of a website and Creation and Automation of a REST API.
+The Capstone Project consists of Automating the UI of a website and the Creation and Automation of a REST API.
 ----
-ReadMe file is still in progress. 
