@@ -6,7 +6,7 @@
 ![Sign Up Page_TestNG_Report (1)](https://github.com/SourabhGPatil/Capstone-Project/assets/81312909/150877b4-bf28-4cfe-9b5d-a2672494b53e)
 
 # Project #02 - Developing and Automation of a REST API
-##Output
+## Output
 ![API_TestNG_Report (2)](https://github.com/SourabhGPatil/Capstone-Project/assets/81312909/454fb004-94e1-45f4-a3c6-9fa2cee7733d)
 
 ![API_TestNG_Report (1)](https://github.com/SourabhGPatil/Capstone-Project/assets/81312909/d4c54384-1a3e-4f26-8224-3ee91ef744c8)
