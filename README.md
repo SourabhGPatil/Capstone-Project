@@ -89,10 +89,108 @@ To get a copy of this project up and running on your local machine for developme
 - Special thanks to my Mentor [] for guidance and approval of test scenarios.
 - Thanks to the developers of Selenium, Java, TestNG, and Cucumber for their valuable contributions to the field of automated testing.
 
+-------
+
+# Project #02 - Create and Automate a REST API
 
 
-# Project #02 - Developing and Automation of a REST API
-## Output
-![API_TestNG_Report (2)](https://github.com/SourabhGPatil/Capstone-Project/assets/81312909/454fb004-94e1-45f4-a3c6-9fa2cee7733d)
+## Overview
 
-![API_TestNG_Report (1)](https://github.com/SourabhGPatil/Capstone-Project/assets/81312909/d4c54384-1a3e-4f26-8224-3ee91ef744c8)
+TopJobs Inc. is a company aiming to develop an online job recruitment application that facilitates both employers and job seekers. The primary objective of this project is to create a RESTful API using Spring Boot and MySQL, enabling CRUD operations. This API will empower employers to post job openings while allowing applicants to apply for these positions. Moreover, automation of this API will be achieved using TestNG for efficient testing.
+
+## Technologies Used
+
+- **Apache Maven**: Maven is utilized for managing dependencies in Java-based projects, ensuring the appropriate JAR files are obtained for seamless integration.
+- **Spring Boot**: Spring Boot serves as the foundation for building enterprise Spring applications, providing a robust framework for development.
+- **REST API**: Representational State Transfer (REST) API conforms to REST architectural principles, enabling interaction with RESTful web services.
+- **MySQL**: MySQL acts as the relational database management system (RDBMS) for storing and managing API data efficiently.
+- **Postman**: Postman serves as a comprehensive API development tool, facilitating the creation, testing, and modification of REST APIs.
+
+## Steps Followed for Building the Project
+
+1. Create a Spring Boot project using Spring Initializr.
+2. Configure and set up a MySQL database, defining necessary configurations.
+3. Design entity model classes to represent database entities.
+4. Implement service classes to handle business logic.
+5. Develop REST controller classes to define API endpoints and operations.
+6. Build and run the project to ensure functionality.
+7. Utilize Postman for testing, executing GET, POST, PUT, and DELETE request methods.
+8. Write test methods and execute them using TestNG for automation.
+
+## Project Structure
+
+The project structure encompasses various components such as entity models, service classes, REST controllers, and configuration files. Refer to the provided screenshot for a detailed visualization.
+
+![API_ProjectStruct](https://github.com/SourabhGPatil/Capstone-Project/assets/81312909/4ef61b72-781f-4305-912b-5f9a5814158c) <br> - The Project Structure
+
+
+## Database Schema
+
+The database schema consists of tables representing job and resume entities, along with their respective attributes. Below are the schema details:
+
+### job Table
+- **JobID**: Unique identifier for each job.
+- **EmployerID**: Identifier for the employer posting the job.
+- **Qualifications**: Qualifications required for the job.
+- **Compensation**: Compensation offered for the job.
+- **employer_name**: Name of the employer.
+- **job_title**: Title of the job.
+
+### resume Table
+- **ApplicantID**: Unique identifier for each applicant.
+- **JobID**: Identifier for the job applied by the applicant.
+- **Skills**: Skills possessed by the applicant.
+- **applicant_name**: Name of the applicant.
+- **education_completed**: Educational qualifications completed by the applicant.
+- **employer_name**: Name of the employer.
+- **phone_no**: Contact number of the applicant.
+
+## Getting Started
+
+### Cloning the Repository
+
+To begin, clone the project repository to your local machine using Git. Open your terminal and execute the following command:
+
+```bash
+git clone https://github.com/SourabhGPatil/Capstone-Project
+```
+
+### Running the Project
+
+Follow these steps to run the project on your computer:
+
+1. **Database Setup**: Before running the project, ensure that you have MySQL installed on your system. Create a MySQL database and configure the necessary credentials. Update the database configurations in the project accordingly.
+
+2. **Project Configuration**: Open the project in your preferred Integrated Development Environment (IDE), such as IntelliJ IDEA or Eclipse. Ensure that you have Apache Maven installed for dependency management.
+
+3. **Build the Project**: Using Maven, build the project to resolve dependencies and compile the source code. Navigate to the root directory of the project in your terminal and execute the following command:
+
+   ```bash
+   mvn clean install
+   ```
+
+4. **Run the Application**: After successfully building the project, run the Spring Boot application. Use the following command:
+
+   ```bash
+   mvn spring-boot:run
+   ```
+
+   This command will start the embedded Tomcat server, and your application will be accessible at the specified port (usually `http://localhost:8080/`).
+
+5. **Testing with Postman**: Once the application is up and running, you can test the REST API endpoints using Postman. Execute GET, POST, PUT, and DELETE requests to interact with the API and verify its functionality.
+
+6. **Automated Testing with TestNG**: To perform automated testing, ensure that TestNG is configured in your IDE. Write test methods to cover various scenarios and execute them using TestNG. Refer to the provided TestNG report for insights into test results and coverage.
+
+By following these steps, you should be able to clone the repository, set up the project, run the application locally, and perform testing using both Postman and TestNG.
+
+## TestNG Report
+
+TestNG report showcases the results of automated tests performed on the API. Refer to the provided screenshot for a comprehensive overview.
+![API_TestNG_Report (1)](https://github.com/SourabhGPatil/Capstone-Project/assets/81312909/d4c54384-1a3e-4f26-8224-3ee91ef744c8) - TestNG Report #01 
+
+![API_TestNG_Report (2)](https://github.com/SourabhGPatil/Capstone-Project/assets/81312909/454fb004-94e1-45f4-a3c6-9fa2cee7733d) - TestNG Report #02
+
+For more detailed information and implementation, please refer to the project's source code.
+
+
+
