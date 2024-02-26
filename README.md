@@ -89,7 +89,6 @@ To get a copy of this project up and running on your local machine for developme
 - Special thanks to my Mentor Ms. Swati Ma'am for guidance and approval of test scenarios.
 - Thanks to the developers of Selenium, Java, TestNG, and Cucumber for their valuable contributions to the field of automated testing.
 
--------
 
 # Project #02 - Create and Automate a REST API
 
