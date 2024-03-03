@@ -55,7 +55,7 @@ To get a copy of this project up and running on your local machine for developme
 1. Clone this repository.
    ```bash
    git clone https://github.com/SourabhGPatil/Capstone-Project
-   ```
+   ``
 2. Install the necessary dependencies.
    ```bash
    npm install
