@@ -84,10 +84,6 @@ To get a copy of this project up and running on your local machine for developme
     ```bash
     mvn test
     ```
-## Acknowledgments
-
-- Special thanks to my Mentor Ms. Swati Ma'am for guidance and approval of test scenarios.
-- Thanks to the developers of Selenium, Java, TestNG, and Cucumber for their valuable contributions to the field of automated testing.
 
 
 # Project #02 - Create and Automate a REST API
@@ -190,6 +186,11 @@ TestNG report showcases the results of automated tests performed on the API. Ref
 ![API_TestNG_Report (2)](https://github.com/SourabhGPatil/Capstone-Project/assets/81312909/454fb004-94e1-45f4-a3c6-9fa2cee7733d) - TestNG Report #02
 
 For more detailed information and implementation, please refer to the project's source code.
+
+## Acknowledgments
+
+- Special thanks to my Mentor Ms. Swati Ma'am for guidance and approval of test scenarios.
+- Thanks to the developers of Selenium, Java, TestNG, and Cucumber for their valuable contributions to the field of automated testing.
 
 
 
